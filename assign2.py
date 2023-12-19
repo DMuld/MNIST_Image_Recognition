@@ -47,7 +47,7 @@ model.summary()
 
 ##################PART 3##################
 
-# Compiles the training alg. ##https://stackoverflow.com/questions/61742556/valueerror-shapes-none-1-and-none-2-are-incompatible##
+# Compiles the training alg.
 model.compile(optimizer='SGD', loss=keras.losses.sparse_categorical_crossentropy, metrics=['accuracy']) 
 
 # Fits the training model
